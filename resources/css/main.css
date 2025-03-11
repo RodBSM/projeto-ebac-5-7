@@ -1,0 +1,150 @@
+/* CSS */
+
+/* GLOBAL STYLES */
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* BASE STYLES */
+
+header {
+    background-color: rgb(100, 0, 75);
+    color: rgb(200, 200, 200);
+    padding: 16px 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}   
+
+header nav li a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* REGISTRATION FORM */
+
+#registration .container {
+    display: block;
+}
+
+#recommendations .container {
+    display: block;
+}
+
+#recommendations .container img{
+    height: 200px;
+}
+
+.streamers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.streamers-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.streamers-list li a {
+    text-decoration: none;
+    background-color: rgb(100, 0, 75);
+    color: rgb(200, 200, 200);
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+
+
+form button{
+    background-color: rgb(100, 0, 75);
+    color: rgb(200, 200, 200);
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(100, 0, 75);
+}
+
+input:focus {
+    outline-color: rgb(100, 0, 100);
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section .store-front {
+    margin-right: 32px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+footer .container p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+footer {
+    background-color: rgb(100, 0, 100);
+    color: rgb(200, 200, 200);
+    padding: 16px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* FONTS AND TEXT */
+header ,
+section h2,
+section h3 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Tinos", serif;
+    font-weight: normal;
+}

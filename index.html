@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Cadastro Streamers</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Streamers Favoritos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#registration">Cadastro de Streamers</a></li>
+                    <li><a href="#recommendations">Lista de Recomendações</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="registration">
+        <div class="container">
+            <h2>Cadastro</h2>
+            <p>Insira os dados do seu streamer favorito para que ele seja avaliado para recomendação.</p>
+            <form action="">
+                <input type="text" name="nome" id="nome" placeholder="Nome do Streamer"></input>
+                <input type="text" name="canal" id="canal" placeholder="URL do canal"></input>
+                <input type="text" name="plataforma" id="plataforma" placeholder="Plataforma do canal"></input>
+                <input type="file" name="foto" id="foto"></input>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section id="recommendations">
+        <div class="container">
+            <h2>Lista de Recomendações</h2>
+            <p>Confira a lista de streamers recomendados pelos usuários.</p>
+            <ul class="streamers-list">
+                <li>
+                    <img src="./resources/img/streamer.jpg" alt="Foto do Streamer"/>
+                    <h3>Nome do Streamer</h3>
+                    <p>Plataforma: Plataforma do canal <a href="#">Visitar canal</a></p>
+                </li>
+                <li>
+                    <img src="./resources/img/streamer(1).jpg" alt="Foto do Streamer"></img>
+                    <h3>Nome do Streamer</h3>
+                    <p>Plataforma: Plataforma do canal <a href="#">Visitar canal</a></p>
+                </li>
+                <li>
+                    <img src="./resources/img/streamer(2).jpg" alt="Foto do Streamer"></img>
+                    <h3>Nome do Streamer</h3>
+                    <p>Plataforma: Plataforma do canal <a href="#">Visitar canal</a></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Streamers Favoritos - Todos os direitos reservados - 2025</p>
+        </div>
+    </footer>
+</body>
+
+</html>
